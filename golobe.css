@@ -1,0 +1,388 @@
+.header{
+    height: 700px;
+    width: 100%;
+    background-image: url(images/scene.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+}
+.login{
+    float: right;
+
+}
+.signup{
+    float: right;
+
+}
+/* .logo{
+    height: 1rem;
+    width: 1rem;
+    object-fit: fill;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+} */
+.helping{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+.helping div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 5%;
+}
+
+.helping div h1{
+    color: #060000;
+    font-size: 5rem;
+    font-family: TradeGothic LT Extended;
+   
+}
+.helping div h3{
+
+    color: #000000;     
+    font-size: 2.8125rem;
+
+}
+
+.helping div h5{
+    
+    color: #000000;
+    font-size: 1.25rem;
+}
+
+.box{
+    background-color: #FFFFFF;
+    height: 12rem;
+    width: 80rem;
+    margin-left: 6rem;
+    border-radius: 5px;
+    margin-top: -7rem;
+    position: absolute;
+}
+
+.add{
+   margin-left: 65rem;
+    background-color: #8ed3ca;
+    margin-top: 10rem;
+    border-radius: 5px;
+    
+}
+
+.soflight{
+    float: right;
+    background-color: #8dd3bb;
+    margin-top: 10rem;
+    position: relative; 
+    border-radius: 5px;
+}
+
+.country{
+    width: 80rem;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 6rem;
+    height: 22rem;
+    margin-top: 10rem;
+}
+
+.cmore{
+    float: right;
+    margin-top: -2.5rem;
+}
+
+.turkey{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 5rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.maldives{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 5rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.uk{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 5rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.australia{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 30rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-top: -14rem;
+}
+
+.france{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+
+.japan{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+
+.azerbaijan{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 55rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-top: -14rem;
+}
+
+.us{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 55rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.uae{
+    width: 20rem;
+    height: 4rem;
+    margin-left: 55rem;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.big{
+    width: 80rem;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 6rem;
+    height: 28rem;
+    margin-top: 34rem;
+}
+
+.b1{
+    height:25rem ;
+    width: 35rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    background-image: url(images/airport.png);
+}
+
+.buton1{
+    margin-top: 12rem;
+    background-color: #8ed3ca;
+    border-radius: 5px;
+}
+
+.b2{
+    height:25rem ;
+    width: 35rem;
+    margin-left: 42rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    background-image: url(images/hotel.png);
+}
+
+.buton2{
+    margin-top: 12rem;
+    background-color: #8ed3ca;
+    border-radius: 5px;
+}
+
+.small{
+    width: 80rem;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 6rem;
+    height: 38rem;
+    margin-top: 65rem;
+}
+
+.s1{
+    height: 36rem;
+    width: 25rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    border-width: 10px;
+	border-color: rgb(0 0 0);
+}
+
+.viewmore{
+    margin-left: 25rem;
+}
+
+.img{
+    height: 13rem;
+    width: 20rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    background-image: url(images/mountains.png);
+    border-radius: 5px;
+}
+
+.s2{
+    height: 36rem;
+    width: 25rem;
+    border-radius: 5px;
+    margin-left: 27rem;
+    margin-top: -37.5rem;
+}
+
+.img2 {
+    height: 13rem;
+    width: 20rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    background-image: url(images/forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.s3{
+    height: 36rem;
+    width: 25rem;
+    border-radius: 10px;
+    margin-left: 53rem;
+    margin-top: -37.5rem;
+}
+
+.img3 {
+    height: 13rem;
+    width: 20rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    background-image: url(images/greenland.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.mainfoot{
+    height: 20rem;
+    width: 93rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    margin-top: 113rem;
+    background-color: #8dd3bb;
+}
+
+
+.foot{
+    height: 16rem;
+    width: 80rem;
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 7rem;
+    border-radius: 10px;
+    background-color: #c7e4db;
+}
+
+.newsletter{
+    height: 5rem;
+    width: 9.5rem;
+    margin-left: 1rem;
+}
+
+.postbox{
+    margin-left: 50rem;
+    margin-top: -10.5rem;
+    height: 13rem;
+    width: 25rem;
+    border-radius: 5px;
+    background-image: url(images/postbox.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+
+}
+
+.submitbtn{
+    height: 2rem;
+    border-radius: 5px;
+    margin-left: 28rem;
+    margin-bottom: 10rem;
+    background-color: #112211;
+    margin-top: -2.5rem;
+    position: absolute ;
+
+}
+
+.email{
+    height: 2rem;
+    width: 25rem;
+    margin-left: 2rem;
+    margin-top: -2.5rem;
+    border-radius: 5px;
+    background-color: #ffffff
+
+}
+
+.ourdestinations{
+    height: 1rem;
+    position: absolute;
+    margin-top: 11.5rem;
+    margin-left: 17rem;
+}
+
+.ouractivities{
+    height: 1rem;
+    position: absolute;
+    margin-top: 11.5rem;
+    margin-left: 28rem;
+}
